@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	long int x,y,z;
+	printf("Enter the base number:");
+	scanf("%ld",&x);
+	printf("Enter the power number:");
+	scanf("%ld",&y);
+	z=pow(x,y);
+	printf("Answer:%ld",z);
+}
